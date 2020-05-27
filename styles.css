@@ -1,0 +1,195 @@
+body html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 20px 0px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-indent: 10px;
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+  text-indent: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.examples {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding: 0px 30px;
+  line-height: 5;
+  font-weight: bold;
+}
+
+#spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  background-color: purple;
+  color: white;
+}
+
+#justifyCenter {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  color: white;
+}
+
+.item {
+  padding: 0px 20px;
+}
+
+#flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  background-color: purple;
+  color: white;
+}
+
+.justifyContent {
+  padding-top: 10px;
+  background-color: lavender;
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+  background-color: teal;
+  color: white;
+}
+
+#rowReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: teal;
+  color: white;
+}
+
+#column {
+  display: flex;
+  flex-direction: column;
+  background-color: teal;
+  color: white;
+}
+
+.flexDirection {
+  padding-top: 10px;
+  background-color: lightblue
+}
+
+#wrap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: goldenrod;
+  color: white;
+}
+#nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: goldenrod;
+  color: white;
+}
+#wrapReverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: goldenrod;
+  color: white;
+}
+#nowrap .item {
+  padding-right: 80px;
+}
+#wrap .item {
+  padding-right: 80px;
+}
+#wrapReverse .item {
+  padding-right: 80px;
+}
+.flexWrap {
+  background-color: lemonchiffon;
+  padding-top: 10px;
+}
+
+#alignItemsCenter {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-color: crimson;
+  color: white;
+}
+#alignItemsCenter .item {
+  background-color: lightpink;
+  color: black;
+  margin: 10px 50px 10px 0px;
+}
+#alignItemsStart {
+  display: flex;
+  align-items: flex-start;
+  height: 300px;
+  background-color: crimson;
+  color: white;
+}
+
+#alignItemsStart .item {
+  background-color: lightpink;
+  color: black;
+  margin: 10px 50px 10px 0px;
+}
+#stretch {
+  display: flex;
+  align-items: stretch;
+  height: 300px;
+  background-color: crimson;
+  color: white;
+}
+#stretch .item {
+  background-color: lightpink;
+  color: black;
+  margin: 10px 50px 10px 0px;
+}
+#baseline {
+  display: flex;
+  align-items: baseline;
+  height: 350px;
+  background-color: crimson;
+  color: white;
+}
+
+span.item1 {
+  background-color: lightpink;
+  color: black;
+  margin: 10px 50px 20px 10px;
+  padding: 0px 10px;
+  font-size: 20px;
+}
+span.item2 {
+  background-color: lightpink;
+  color: black;
+  margin: 10px 50px 10px 0px;
+  font-size: 40px;
+  padding: 0px 10px;
+}
+span.item3 {
+  background-color: lightpink;
+  color: black;
+  margin: 10px 50px 10px 0px;
+  font-size: 60px;
+  padding: 0px 10px;
+}
+
+.alignItems {
+  background-color: lightpink;
+  color: black;
+  padding-top: 10px;
+}
