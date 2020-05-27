@@ -193,3 +193,64 @@ span.item3 {
   color: black;
   padding-top: 10px;
 }
+
+#alignSpaceBetween {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color: forestgreen;
+  color: white;
+  height: 400px;
+  padding: 10px;
+}
+
+#alignSpaceBetween .item {
+  background-color: lightgreen;
+  color: black;
+  margin: 10px;
+  padding: 5px 30px;
+  line-height: 3;
+  width: 100px;
+}
+
+#alignContentStretch {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  background-color: forestgreen;
+  color: white;
+  height: 400px;
+  padding: 10px 0px 10px 20px;
+}
+#alignContentStretch .item {
+  background-color: lightgreen;
+  color: black;
+  margin: 10px;
+  padding: 5px 30px;
+  line-height: 3;
+  width: 100px;
+}
+
+#alignContentCenter {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+   background-color: forestgreen;
+  color: white;
+  height: 400px;
+  padding: 10px 0px 10px 20px;
+}
+
+#alignContentCenter .item {
+  background-color: lightgreen;
+  color: black;
+  margin: 10px;
+  padding: 5px 30px;
+  line-height: 3;
+  width: 100px;
+}
+
+.alignContent {
+  background-color: lightgreen;
+  padding-top: 10px;
+}
