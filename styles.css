@@ -37,14 +37,24 @@ h3 {
   display: flex;
   justify-content: space-between;
   background-color: purple;
-  color: white;
+}
+
+#spaceBetween .item {
+  background-color: lavender;
+  color: black;
+  margin: 10px;
 }
 
 #justifyCenter {
   display: flex;
   justify-content: center;
   background-color: purple;
-  color: white;
+}
+
+#justifyCenter .item {
+  background-color: lavender;
+  color: black;
+  margin: 10px;
 }
 
 .item {
@@ -55,7 +65,12 @@ h3 {
   display: flex;
   justify-content: flex-end;
   background-color: purple;
-  color: white;
+}
+
+#flexEnd .item {
+  background-color: lavender;
+  color: black;
+  margin: 10px;
 }
 
 .justifyContent {
@@ -67,26 +82,43 @@ h3 {
   display: flex;
   flex-direction: row;
   background-color: teal;
-  color: white;
+}
+
+#row .item {
+  background-color: lightblue;
+  color: black;
+  margin: 10px;
 }
 
 #rowReverse {
   display: flex;
   flex-direction: row-reverse;
   background-color: teal;
-  color: white;
+}
+
+#rowReverse .item {
+  background-color: lightblue;
+  color: black;
+  margin: 10px;
 }
 
 #column {
   display: flex;
   flex-direction: column;
   background-color: teal;
-  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#column .item {
+  background-color: lightblue;
+  color: black;
+  margin: 10px;
 }
 
 .flexDirection {
   padding-top: 10px;
-  background-color: lightblue
+  background-color: lightblue;
 }
 
 #wrap {
@@ -109,12 +141,21 @@ h3 {
 }
 #nowrap .item {
   padding-right: 80px;
+  background-color: lemonchiffon;
+  color: black;
+  margin: 10px;
 }
 #wrap .item {
   padding-right: 80px;
+  background-color: lemonchiffon;
+  color: black;
+  margin: 10px;
 }
 #wrapReverse .item {
   padding-right: 80px;
+  background-color: lemonchiffon;
+  color: black;
+  margin: 10px;
 }
 .flexWrap {
   background-color: lemonchiffon;
