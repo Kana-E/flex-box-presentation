@@ -295,3 +295,72 @@ span.item3 {
   background-color: lightgreen;
   padding-top: 10px;
 }
+
+#order {
+  display: flex;
+  background-color: dodgerblue;
+  padding-top: 10px;
+}
+
+#order .item {
+  background-color: white;
+  color: black;
+  margin: 10px;
+}
+
+.order {
+  background: white;
+}
+
+.combinedCol {
+  display: flex;
+  flex-direction: column;
+  background-color: coral;
+  justify-content: space-between;
+}
+
+.combinedCol .item {
+  background-color: rgb(252, 196, 175);
+  color: black;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  width: 100px;
+}
+
+.combinedStretch {
+  display: flex;
+  align-items: stretch;
+  background-color: coral;
+}
+
+.combinedStretch .item {
+  background-color: rgb(252, 196, 175);
+  color: black;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  width: 100px;
+}
+
+.combined {
+  display: flex;
+  flex-direction: row;
+  background-color: coral;
+  height: 400px;
+}
+
+.combinedReverseWrap {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: coral;
+}
+
+.combinedReverseWrap .item {
+  background-color: rgb(252, 196, 175);
+  color: black;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  width: 100px;
+}
